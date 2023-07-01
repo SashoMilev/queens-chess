@@ -1,0 +1,16 @@
+Guides: 
+https://610yilingliu.github.io/2020/07/21/ConfigureOpenMPI/
+for configuring MPI and your VS Project and testing it, well detailed nice
+https://medium.com/geekculture/configuring-mpi-on-windows-10-and-executing-the-hello-world-program-in-visual-studio-code-2019-879776f6493f
+more general
+
+
+How to execute threads on MPI code
+
+1. Make sure you have mpi installed; type mpiexec in cmd
+
+2. use cd command to project directory, then to debug folder. 
+eg. >cd C:\Users\Sasho\source\repos\TestArea\QueensMarch\Debug
+
+3. Type  mpiexec -n 5 ./QueensMarch.exe 
+5 is the number of threads
